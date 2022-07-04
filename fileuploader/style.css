@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    background: rgb(78, 54, 121);
+    background: linear-gradient(311deg, rgba(78, 54, 121, 1) 0%, rgba(104, 116, 232, 1) 100%);
+    color: #ffffff;
+}
+
+.main-title {
+    text-align: center;
+    padding: 20px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+}
+
+.container {
+    width: 80%;
+    height: 70%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    display: flex;
+}
+
+.container .file-list {
+    border-inline-end: #ffffff50 1px solid;
+    width: 25%;
+}
+
+.container .file-management {
+    position: relative;
+    height: 100%;
+    width: 75%;
+}
+
+.container .file-management .manager {
+    position: absolute;
+    bottom: 0px;
+    padding-block: 20px;
+    border-top: #ffffff50 1px solid;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container .file-list div {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.container .file-list div:hover {
+    background-color: #ffffff20;
+}
